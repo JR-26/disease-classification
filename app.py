@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
+from keras.models import load_model
+
 
 # Load the model and the new scaler fitted on 7 features
 model = load_model("hcv_model.h5")
