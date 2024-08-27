@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import joblib
-from keras.models import load_model
+import tensorflow as tf
+from tensorflow.keras.models import load_model
+
 
 
 # Load the model and the new scaler fitted on 7 features
